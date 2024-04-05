@@ -4,7 +4,7 @@ import os
 current_dir = os.getcwd()
 
 # Define the command to execute the Python script without showing the terminal
-command = f"python3 -m editor.py"
+command = f"python3 {os.path.join(current_dir, 'editor.py')}"
 
 # Define the title and description for the shortcut
 title = "Shortcut Editor"
