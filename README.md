@@ -11,8 +11,10 @@ wget https://github.com/Momwhyareyouhere/Shortcut-Editor/releases/download/Downl
 chmod +x setupeditor.sh
 ./setupeditor.sh
 ```
-# DELETE SHORTCUT (BUT IT DOESNT REMOVE THE FILES)
+# DELETE SHORTCUT AND FILES
 ```
 cd Shortcut-Editor
 python3 editordelete.py
+cd
+sudo rm -rf Shortcut-Editor
 ```
